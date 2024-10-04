@@ -24,3 +24,4 @@ jobs:
         # skip cache becausez of flaky behaviors
         skip-build-cache: true
         skip-pkg-cache: true
+        working-directory: ./
