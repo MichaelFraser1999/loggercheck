@@ -18,10 +18,6 @@ jobs:
         go-version: '1.23'
 
     - name: Run golangci-lint
-      uses: golangci/golangci-lint-action@v3.7.0
+      uses: golangci/golangci-lint-action@v6.1.1
       with:
         version: v1.58.0
-        # skip cache becausez of flaky behaviors
-        skip-build-cache: true
-        skip-pkg-cache: true
-        working-directory: ./
