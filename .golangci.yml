@@ -74,7 +74,7 @@ linters:
     - revive
     - staticcheck
     - stylecheck
-#    - typecheck
+    - typecheck
     - unconvert
     - unparam
     - unused
